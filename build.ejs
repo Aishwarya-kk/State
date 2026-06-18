@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill this form </title>
+    <style>
+       
+        .conatiner{
+            width:1200px;
+            height: 1500px;
+            border:4px solid black;
+            margin-left:470px;
+        }
+        h2{
+            text-decoration: double underline;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1{
+            text-align: center;
+            color: blue;
+        }
+        button{
+          margin-left:1500px;
+          border-radius: 10px;
+          background-color: blue;
+          color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fill This From</h1>
+    <form method="GET" action="/resume/next">
+        <div class="conatiner">
+            <div class="main">
+        <div class="first">
+            <h2>Personal Infromation</h2>
+            <label for="name"><h3>First Name:</h3></label>
+<input type="text" placeholder="FirstName" name="firstname" id="name">
+            <label for="name"><h3>Last Name:</h3></label>
+<input type="text" placeholder="LastName" name="lastname" id="name">
+   <label for="adress"><h3>✉ Email:</h3></label>
+<input type="email" placeholder="email" name="email" id="adress">
+<label for="num"><h3>📞Phone  </h3></label>
+<input type="number" placeholder="number" name="number" id="num">
+<label for="link"><h3>LinkedIN:</h3></label>
+<input type="text" placeholder="LinkedIn" name="link" id="link">
+        </div>
+        <hr><hr>
+<div class="second">
+    <h2>Professional Summary:</h2>
+    <textarea name="professional" placeholder="A short 2-3 line about the candidate" row="10"></textarea>
+</div>
+<hr>
+<hr><div class="third">
+    <h2>Education:</h2>
+<label for="de">Degree/Qualification:</label>
+    <input type="text" placeholder="Degree/Qualification" name="degree" id="de">
+    <label for="year">Stream:</label>
+       <input type="text" placeholder="course" name="course" id="de">
+    <label for="year">location::</label>
+      <input type="text" placeholder="location" name="location" id="de">
+    <label for="year">Year of passing:</label>
+    <input type="number" placeholder="year of passing" name="passing" id="year">
+    <label for="cgpa">CGPA/percentage:</label>
+    <input type="text" placeholder="CGPA/percentage" name="cgpa" id="cgpa">
+
+</div>
+<hr><hr>
+<div class="four">
+<h2>Projects:</h2>
+ <label for="project">Project Title 1:</label>
+    <input type="text" placeholder="project title" name="project" id="project">
+     <label for="des">Description:</label>
+    <textarea type="text" placeholder="Description" name="desc" id="de"></textarea>
+ <label for="tech">Technologies Used:</label>
+    <input type="text" placeholder="Technologies Used" name="tech" id="tech">
+     <label for="git">Link(Github,Live Demo):</label>
+    <input type="link" placeholder="link" name="git" id="git">
+    <br>
+    <label for="project">Project Title 2:</label>
+    <input type="text" placeholder="project title" name="project" id="project">
+     <label for="des">Description:</label>
+    <textarea type="text" placeholder="Description" name="desc" id="de"></textarea>
+ <label for="tech">Technologies Used:</label>
+    <input type="text" placeholder="Technologies Used" name="tech" id="tech">
+     <label for="git">Link(Github,Live Demo):</label>
+    <input type="link" placeholder="link" name="git" id="git">
+    <br>
+    <label for="project">Project Title 3:</label>
+    <input type="text" placeholder="project title" name="project" id="project">
+     <label for="des">Description:</label>
+     <textarea type="text" placeholder="Description" name="desc" id="de"></textarea>
+ <label for="tech">Technologies Used:</label>
+    <input type="text" placeholder="Technologies Used" name="tech" id="tech">
+     <label for="git">Link(Github,Live Demo):</label>
+    <input type="link" placeholder="link" name="git" id="git">
+    <br>
+    <label for="project">Project Title 4:</label>
+    <input type="text" placeholder="project title" name="project" id="project">
+     <label for="des">Description:</label>
+    <textarea type="text" placeholder="Description" name="desc" id="de"></textarea>
+ <label for="tech">Technologies Used:</label>
+    <input type="text" placeholder="Technologies Used" name="tech" id="tech">
+     <label for="git">Link(Github,Live Demo):</label>
+    <input type="link" placeholder="link" name="git" id="git">
+    <br>
+    <label for="project">Project Title 5:</label>
+    <input type="text" placeholder="project title" name="project" id="project">
+     <label for="des">Description:</label>
+    <textarea type="text" placeholder="Description" name="desc" id="de"></textarea>
+ <label for="tech">Technologies Used:</label>
+    <input type="text" placeholder="Technologies Used" name="tech" id="tech">
+     <label for="git">Link(Github,Live Demo):</label>
+    <input type="link" placeholder="link" name="git" id="git">
+
+
+
+    </div>
+    <hr><hr>
+    <div class="five">
+        <h2>Technical Skills</h2>
+        <label for="skill">Languages:</label>
+        <input type="text" placeholder="Techinal skills" name="lang" id="skill">
+         <label for="skill">Software:</label>
+        <input type="text" placeholder="Techinal skills" name="soft" id="skill">
+         <label for="skill">Tools & Libraries:</label>
+        <input type="text" placeholder="Techinal skills" name="tool" id="skill">
+         <label for="skill">Databases & Cloud:</label>
+        <input type="text" placeholder="Techinal skills" name="db" id="skill">
+         <label for="skill">platfroms:</label>
+        <input type="text" placeholder="Techinal skills" name="flt" id="skill">
+         <label for="skill">Areas of Interest:</label>
+        <input type="text" placeholder="Techinal skills" name="area" id="skill">
+
+
+    </div>
+    <hr>
+    <hr>
+
+    <div class="six">
+        <h2>Certicates</h2>
+        <label for="ce">Certicate 1:</label>
+    <input type="text" placeholder="Certicate name" id="ce" name="cer">
+     <input type="text" placeholder="Issued Date" id="ce" name="de">
+      <input type="text" placeholder="Credenatial" id="ce" name="cre">
+      <textarea name="cd" id=""placeholder="Description of certicate"></textarea>
+      <br>
+       <label for="ce">Certicate 2:</label>
+      <input type="text" placeholder="Certicate name" id="ce" name="a">
+     <input type="text" placeholder="Issued Date" id="ce" name="b">
+      <input type="text" placeholder="Credenatial" id="ce" name="c">
+      <textarea name="d" id=""placeholder="Description of certicate"></textarea>
+      <br>
+       <label for="ce">Certicate 3:</label>
+      <input type="text" placeholder="Certicate name" id="ce" name="e">
+     <input type="text" placeholder="Issued Date" id="ce" name="f">
+      <input type="text" placeholder="Credenatial" id="ce" name="g">
+      <textarea name="l" id=""placeholder="Description of certicate"></textarea>
+      <br>
+       <label for="ce">Certicate 4:</label>
+      <input type="text" placeholder="Certicate name" id="ce" name="h">
+     <input type="text" placeholder="Issued Date" id="ce" name="i">
+      <input type="text" placeholder="Credenatial" id="ce" name="j">
+      <textarea name="k" id="a" placeholder="Description of certicate"></textarea>
+    </div>
+    </div>
+    </div>
+    <button class="btn btn-primary">Generate</button>
+    </form>
+    
+</body>
+</html>

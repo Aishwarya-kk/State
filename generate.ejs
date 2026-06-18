@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume generated</title>
+
+<style>
+   
+    .conatiner{
+        width:1000px;
+        height: 1300px;
+        border: 6px solid black;
+       margin-left:500px;
+    }
+    .f{
+        text-align: center;
+    }
+    h2{
+        color: blue;
+    }
+    .lp{
+      margin-left:400px;
+        
+    }
+    #h{
+        display: flex;
+        justify-content: start;
+    }
+    #u{
+        display: flex;
+        justify-content: start;
+    }
+    #t{
+         display: flex;
+        justify-content: start;
+    }
+    #l{
+         display: flex;
+        justify-content: start;
+    }
+    #o{
+margin-left: 980px;
+font-weight: bold;
+text-decoration: double underline;
+    }
+    
+</style>
+</head>
+<body>
+ 
+    <div class="conatiner">
+<div class="f">
+    <h1><%= firstname %>   <%= lastname %></h1>
+    <h3>📞 +91 &nbsp;<%= number %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✉<a href="#"><%= email %> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </a>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-brands fa-linkedin"><%= link %></i>   </h3>
+</div>
+<h2>EDUCATION</h2>
+<hr>
+<div class="s">
+<h3><%= degree %>, <%= location %>  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;      &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;   passout:<%= passing %> </h3>
+<p><%= course %></p>
+<h5>CGPA:<%= cgpa %></h5>
+
+</div>
+<h2>TECHNICAL SKILLS</h2>
+<hr>
+<div class="t">
+    <h3>Languages&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;<%= lang %></h3>
+    <h3>Software&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;<%= soft %></h3>
+    <h3>Tools & Libraries&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;:<%= tool %></h3>
+ <h3>Databases & Cloud &nbsp;&nbsp;&nbsp; :<%= db %></h3>
+ <h3>Platfroms&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;: &nbsp;<%= flt %></h3>
+ <h3>Areas of Interest&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;: &nbsp;<%= area %></h3>
+
+</div>
+<h2>PROJECTS:</h2>
+<hr>
+<div class="f">
+    <h3 id="h">     <%= project %> </h3>
+    <br>
+    <ul id="u">
+        <li><%= desc %></li>
+    </ul>
+    <ul id="t">
+      <h5> <li>Technologies used:<%= tech %></li></h5>
+    </ul>
+   <h4 id="l">Link:<a href="#"><%=git  %></a></h4>
+</div>
+<h2>CERTIFICATIONS</h2>
+<hr>
+<div class="s">
+    <h3><%= cer %></h3>
+    <ul>
+        <li>Issued:<%=  de%></li>
+    <li>Credenatial ID:<%= cre %></li>
+    <li><%= cd %></li>
+    </ul>
+     <h3><%= a %></h3>
+     <ul>
+        <li><%= b  %></li>
+    <li><%= c %></li>
+     <li><%= d %></li>
+     <br>
+     <h3><%= e %></h3>
+    
+        <p><%= f %></p>
+    <p><%= g %></p>
+     <p><%= l %></p>
+  <br>
+     <h3><%= h %></h3>
+  
+         <p><%= i %></p>
+    <p><%= j %></p>
+    <p><%= k %></p>
+</div>
+    </div>
+</body>
+</html>
